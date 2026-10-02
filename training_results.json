@@ -1,0 +1,49 @@
+{
+  "best_parameters": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 150
+  },
+  "best_cv_roc_auc": 0.8497891117078034,
+  "threshold": 0.34000000000000014,
+  "test_metrics": {
+    "accuracy": 0.7778566359119943,
+    "precision": 0.5634095634095634,
+    "recall": 0.7245989304812834,
+    "f1": 0.6339181286549708,
+    "roc_auc": 0.8452427084140639,
+    "pr_auc": 0.6648413655850675
+  },
+  "comparison": [
+    {
+      "model": "Gradient Boosting",
+      "cv_roc_auc_mean": 0.8472693439555581,
+      "cv_roc_auc_std": 0.010633253182628503
+    },
+    {
+      "model": "Random Forest",
+      "cv_roc_auc_mean": 0.8457677847545568,
+      "cv_roc_auc_std": 0.009090550508307513
+    },
+    {
+      "model": "Logistic Regression",
+      "cv_roc_auc_mean": 0.8456291947539608,
+      "cv_roc_auc_std": 0.011610914728404895
+    },
+    {
+      "model": "HistGradient Boosting",
+      "cv_roc_auc_mean": 0.8375120905796954,
+      "cv_roc_auc_std": 0.008131893835935882
+    },
+    {
+      "model": "Decision Tree",
+      "cv_roc_auc_mean": 0.8264426489754102,
+      "cv_roc_auc_std": 0.007894060016043857
+    },
+    {
+      "model": "Dummy",
+      "cv_roc_auc_mean": 0.5,
+      "cv_roc_auc_std": 0.0
+    }
+  ]
+}
